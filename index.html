@@ -6,7 +6,7 @@
   <title>The Shelter of Becoming — Primavera Sound 2027</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -27,6 +27,11 @@
     <p class="hero-eyebrow" data-reveal>Urban Festivals Go Circular</p>
     <h1 class="hero-title" data-reveal>The Shelter<br>of <em class="accent">Becoming</em></h1>
     <p class="hero-sub" data-reveal>Primavera Sound · Barcelona · 3–7 June 2027</p>
+    <a href="#s-intro" class="hero-scroll" aria-label="Scroll down">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+        <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
   </section>
 
   <!-- DAY / NIGHT COMPARE SLIDER -->
@@ -52,7 +57,7 @@
   </section>
 
   <!-- INTRO -->
-  <section class="section-white">
+  <section class="section-white" id="s-intro">
     <div class="container container--narrow">
       <p class="section-label" data-reveal>The Installation</p>
       <h2 class="section-title" data-reveal>Built from what<br>the city <em class="accent">discards.</em></h2>
@@ -76,59 +81,79 @@
       <p class="intro-body intro-body--lt" data-reveal>Four materials normally associated with disposal, transformed into surfaces of encounter and environmental storytelling.</p>
       <div class="cards-4">
         <div class="card card--dark" data-reveal>
-          <div class="card-icon">
-            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="64" height="64" rx="14" fill="#7b5ea7"/>
-              <path d="M32 10 C24 10 13 20 13 34 C13 48 21 54 32 54 C43 54 51 48 51 34 C51 20 40 10 32 10Z" stroke="white" stroke-width="1.8" fill="rgba(255,255,255,0.13)"/>
-              <path d="M17 26 Q32 21 47 26" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
-              <path d="M15 34 Q32 29 49 34" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
-              <path d="M16 42 Q32 37 48 42" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
-              <line x1="32" y1="10" x2="32" y2="20" stroke="white" stroke-width="1.5" opacity="0.7"/>
-            </svg>
+          <div class="card-photo">
+            <img src="images/ufgc_p22_img1.jpeg" alt="Mussel shell composite tile">
           </div>
-          <h3>Mussel Shells</h3>
-          <p>Ground and cast into translucent panels that filter light and create acoustic texture.</p>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="14" fill="#7b5ea7"/>
+                <path d="M32 10 C24 10 13 20 13 34 C13 48 21 54 32 54 C43 54 51 48 51 34 C51 20 40 10 32 10Z" stroke="white" stroke-width="1.8" fill="rgba(255,255,255,0.13)"/>
+                <path d="M17 26 Q32 21 47 26" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
+                <path d="M15 34 Q32 29 49 34" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
+                <path d="M16 42 Q32 37 48 42" stroke="white" stroke-width="1" fill="none" opacity="0.55"/>
+                <line x1="32" y1="10" x2="32" y2="20" stroke="white" stroke-width="1.5" opacity="0.7"/>
+              </svg>
+            </div>
+            <h3>Mussel Shells</h3>
+            <p>Ground and cast into translucent panels that filter light and create acoustic texture.</p>
+          </div>
         </div>
         <div class="card card--dark" data-reveal>
-          <div class="card-icon">
-            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="64" height="64" rx="14" fill="#e8a020"/>
-              <path d="M32 12 C24 12 16 22 16 34 C16 46 23 54 32 54 C41 54 48 46 48 34 C48 22 40 12 32 12Z" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.18)"/>
-              <path d="M23 34 L26 30 L29 33 L32 27 L35 31 L38 28 L41 32" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+          <div class="card-photo">
+            <img src="images/ufgc_p22_img2.jpeg" alt="Eggshell composite tile texture">
           </div>
-          <h3>Eggshells</h3>
-          <p>Calcium-rich surfaces that glow warm when backlit — modulating solar exposure.</p>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="14" fill="#e8a020"/>
+                <path d="M32 12 C24 12 16 22 16 34 C16 46 23 54 32 54 C41 54 48 46 48 34 C48 22 40 12 32 12Z" stroke="white" stroke-width="2" fill="rgba(255,255,255,0.18)"/>
+                <path d="M23 34 L26 30 L29 33 L32 27 L35 31 L38 28 L41 32" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Eggshells</h3>
+            <p>Calcium-rich surfaces that glow warm when backlit — modulating solar exposure.</p>
+          </div>
         </div>
         <div class="card card--dark" data-reveal>
-          <div class="card-icon">
-            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="64" height="64" rx="14" fill="#6b3c28"/>
-              <path d="M19 30 L21 47 Q21 49 23 49 L41 49 Q43 49 43 47 L45 30 Z" stroke="white" stroke-width="1.8" fill="rgba(255,255,255,0.1)" stroke-linejoin="round"/>
-              <path d="M43 36 Q51 36 51 42 Q51 48 43 48" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
-              <line x1="14" y1="51" x2="50" y2="51" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
-              <path d="M25 27 Q23 23 25 19" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
-              <path d="M32 25 Q30 21 32 17" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
-              <path d="M39 27 Q37 23 39 19" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
-            </svg>
+          <div class="card-photo">
+            <img src="images/ufgc_p20_img3.jpeg" alt="Coffee gelatine tile experiment">
           </div>
-          <h3>Coffee Grounds</h3>
-          <p>Dense, dark, tactile tiles that carry the memory of every Barcelona morning.</p>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="14" fill="#6b3c28"/>
+                <path d="M19 30 L21 47 Q21 49 23 49 L41 49 Q43 49 43 47 L45 30 Z" stroke="white" stroke-width="1.8" fill="rgba(255,255,255,0.1)" stroke-linejoin="round"/>
+                <path d="M43 36 Q51 36 51 42 Q51 48 43 48" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="14" y1="51" x2="50" y2="51" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M25 27 Q23 23 25 19" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M32 25 Q30 21 32 17" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M39 27 Q37 23 39 19" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Coffee Grounds</h3>
+            <p>Dense, dark, tactile tiles that carry the memory of every Barcelona morning.</p>
+          </div>
         </div>
         <div class="card card--dark" data-reveal>
-          <div class="card-icon">
-            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="64" height="64" rx="14" fill="#f5922a"/>
-              <circle cx="32" cy="32" r="20" stroke="white" stroke-width="2.5" fill="rgba(255,255,255,0.12)"/>
-              <circle cx="32" cy="32" r="13" fill="rgba(255,255,255,0.18)"/>
-              <line x1="32" y1="19" x2="32" y2="45" stroke="white" stroke-width="0.9" opacity="0.65"/>
-              <line x1="20.7" y1="25.5" x2="43.3" y2="38.5" stroke="white" stroke-width="0.9" opacity="0.65"/>
-              <line x1="20.7" y1="38.5" x2="43.3" y2="25.5" stroke="white" stroke-width="0.9" opacity="0.65"/>
-              <circle cx="32" cy="32" r="2.5" fill="white" opacity="0.7"/>
-            </svg>
+          <div class="card-photo">
+            <img src="images/ufgc_p19_img1.jpeg" alt="Orange peel scale skin tessellation">
           </div>
-          <h3>Orange Peels</h3>
-          <p>Flexible membranes that age with dignity — changing colour, releasing scent, becoming compost.</p>
+          <div class="card-content">
+            <div class="card-icon">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="14" fill="#f5922a"/>
+                <circle cx="32" cy="32" r="20" stroke="white" stroke-width="2.5" fill="rgba(255,255,255,0.12)"/>
+                <circle cx="32" cy="32" r="13" fill="rgba(255,255,255,0.18)"/>
+                <line x1="32" y1="19" x2="32" y2="45" stroke="white" stroke-width="0.9" opacity="0.65"/>
+                <line x1="20.7" y1="25.5" x2="43.3" y2="38.5" stroke="white" stroke-width="0.9" opacity="0.65"/>
+                <line x1="20.7" y1="38.5" x2="43.3" y2="25.5" stroke="white" stroke-width="0.9" opacity="0.65"/>
+                <circle cx="32" cy="32" r="2.5" fill="white" opacity="0.7"/>
+              </svg>
+            </div>
+            <h3>Orange Peels</h3>
+            <p>Flexible membranes that age with dignity — changing colour, releasing scent, becoming compost.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -460,8 +485,33 @@
   <!-- FOOTER -->
   <footer id="footer">
     <div class="container">
-      <p class="footer-name">The Shelter of Becoming</p>
-      <p class="footer-sub">Urban Festivals Go Circular · Primavera Sound · Barcelona 2027</p>
+      <div class="footer-grid">
+        <div class="footer-col footer-col--brand">
+          <p class="footer-logo">The Shelter<br>of Becoming</p>
+          <p class="footer-tagline">Urban Festivals Go Circular<br>Primavera Sound · Barcelona 2027</p>
+        </div>
+        <div class="footer-col">
+          <span class="footer-heading">Project</span>
+          <a href="#s-materials">Biomaterials</a>
+          <a href="#s-cycles">Cycles</a>
+          <a href="#s-lab">Material Lab</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-heading">Protocol</span>
+          <a href="#s-sustainability">Sustainability</a>
+          <a href="#s-principles">Principles</a>
+          <a href="#s-pitch">Pitch 2027</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-heading">Contact</span>
+          <a href="mailto:amin@externalreference.com">amin@externalreference.com</a>
+          <a href="https://github.com/externalreferencearchitects-dev/The-Shelter-of-Becoming" target="_blank" rel="noopener">GitHub Repository</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>External Reference Architects</span>
+        <span>Primavera Sound 2027 Proposal</span>
+      </div>
     </div>
   </footer>
 
