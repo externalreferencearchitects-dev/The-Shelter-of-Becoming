@@ -1,28 +1,28 @@
 /* The Shelter of Becoming — main.js */
 
-// DAY/NIGHT COMPARE SLIDER
+// COMPARE SLIDERS — handles all .compare-wrap instances on the page
 (function () {
-  const wrap   = document.querySelector('.compare-wrap');
-  if (!wrap) return;
-  const clip   = document.getElementById('compareClip');
-  const handle = document.getElementById('compareHandle');
-  let active = false;
+  document.querySelectorAll('.compare-wrap').forEach(function (wrap) {
+    const clip   = wrap.querySelector('.compare-clip');
+    const handle = wrap.querySelector('.compare-handle');
+    if (!clip || !handle) return;
+    let active = false;
 
-  function setPos(clientX) {
-    const rect = wrap.getBoundingClientRect();
-    const pct  = Math.min(Math.max((clientX - rect.left) / rect.width, 0.02), 0.98);
-    const val  = (pct * 100).toFixed(2) + '%';
-    clip.style.width  = val;
-    handle.style.left = val;
-  }
+    function setPos(clientX) {
+      const rect = wrap.getBoundingClientRect();
+      const pct  = Math.min(Math.max((clientX - rect.left) / rect.width, 0.02), 0.98);
+      const val  = (pct * 100).toFixed(2) + '%';
+      clip.style.width  = val;
+      handle.style.left = val;
+    }
 
-  handle.addEventListener('mousedown',  e => { active = true; e.preventDefault(); });
-  window.addEventListener('mouseup',    () => active = false);
-  window.addEventListener('mousemove',  e => { if (active) setPos(e.clientX); });
-
-  handle.addEventListener('touchstart', () => { active = true; }, { passive: true });
-  window.addEventListener('touchend',   () => active = false);
-  window.addEventListener('touchmove',  e => { if (active) setPos(e.touches[0].clientX); }, { passive: true });
+    handle.addEventListener('mousedown',  e => { active = true; e.preventDefault(); });
+    window.addEventListener('mouseup',    () => { active = false; });
+    window.addEventListener('mousemove',  e => { if (active) setPos(e.clientX); });
+    handle.addEventListener('touchstart', () => { active = true; }, { passive: true });
+    window.addEventListener('touchend',   () => { active = false; });
+    window.addEventListener('touchmove',  e => { if (active) setPos(e.touches[0].clientX); }, { passive: true });
+  });
 })();
 
 // NAV — becomes white/solid on scroll
