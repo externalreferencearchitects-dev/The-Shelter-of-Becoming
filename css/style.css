@@ -1,24 +1,23 @@
 /* =====================================================
    THE SHELTER OF BECOMING
-   Design language adapted from rekrill.bio:
-   dark cacao + vanilla cream + olive green,
-   one light humanist sans (Hanken Grotesk in place of
-   the commercial Motiva Sans), fluid full-width
-   container, cream hairlines, 12px radii, glass cards,
-   slow fade-up motion.
+   Warm beige + orange + yellow palette
+   Modern, minimal design with organic warmth,
+   full-width imagery, clean typography.
    ===================================================== */
 
 :root {
-  --cream:     #FFEBC4;                     /* rekrill --1  */
-  --dark:      #201914;                     /* rekrill --2  */
-  --ink:       #111111;                     /* rekrill --text */
-  --green:     #2d3622;                     /* rekrill sustainability bg */
-  --grey:      #707070;                     /* rekrill --g  */
-  --line-lt:   #DBDBDB;                     /* rekrill --b  */
-  --line-dk:   rgba(255, 235, 196, 0.15);   /* cream hairline on dark */
-  --glass:     rgba(255, 255, 255, 0.05);   /* #ffffff0d glass card */
-  --muted-dk:  #aaaaaa;                     /* card body text on dark */
-  --ff:        'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --cream:     #F9D5B8;                     /* warm beige accent */
+  --orange:    #E8934D;                     /* warm orange highlight */
+  --yellow:    #F9C74F;                     /* bright yellow accent */
+  --dark:      #4A3728;                     /* warm brown dark */
+  --ink:       #2D1F15;                     /* warm dark text */
+  --green:     #7B9E6F;                     /* muted sage green */
+  --grey:      #8B7B73;                     /* warm grey */
+  --line-lt:   #E8D5C4;                     /* light warm line */
+  --line-dk:   rgba(244, 182, 123, 0.12);  /* orange hairline on dark */
+  --glass:     rgba(249, 213, 184, 0.08);  /* beige glass card */
+  --muted-dk:  #A89882;                     /* muted warm text on dark */
+  --ff:        'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
   --ease-slow: cubic-bezier(.22, .61, .36, 1);
   --dur-slow:  1.05s;
 }
@@ -64,14 +63,14 @@ em.accent { font-style: italic; color: inherit; }
   transition: background-color .4s;
 }
 #nav.solid {
-  background-color: rgba(32, 25, 20, 0.82);
+  background-color: rgba(74, 55, 40, 0.88);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
 }
 .nav-logo {
   font-size: 18px;
   font-weight: 500;
-  color: var(--cream);
+  color: var(--orange);
   transition: opacity .4s;
 }
 .nav-logo:hover { opacity: .7; }
@@ -585,6 +584,67 @@ em.accent { font-style: italic; color: inherit; }
   transition: .4s;
 }
 .lightbox-close:hover { background-color: rgba(255, 255, 255, .18); }
+
+/* ── CONCEPT SECTIONS ───────────────── */
+.concept-section { position: relative; }
+
+.concept-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.concept-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  color: var(--orange);
+  opacity: 0.85;
+}
+
+.concept-name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+/* ── ART SECTION ────────────────────── */
+.art-section { position: relative; padding: 120px 0; }
+
+.art-quote {
+  font-size: 18px;
+  line-height: 1.8;
+  font-style: italic;
+  color: var(--cream);
+  margin: 32px 0 48px;
+  border-left: 2px solid var(--orange);
+  padding-left: 24px;
+  max-width: 760px;
+}
+
+.art-quote cite {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 12px;
+  opacity: 0.8;
+}
+
+.art-body {
+  max-width: 760px;
+}
+
+.art-body p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--muted-dk);
+  margin-bottom: 20px;
+}
+
+.art-body p:last-child { margin-bottom: 0; }
 
 /* ── REDUCED MOTION ─────────────────── */
 @media (prefers-reduced-motion: reduce) {
