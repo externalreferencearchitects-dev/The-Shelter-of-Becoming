@@ -1,4 +1,4 @@
-/* The Shelter of Becoming — main.js */
+/* ENCOUNTERS — main.js */
 
 // COMPARE SLIDERS — handles all .compare-wrap instances on the page
 (function () {
