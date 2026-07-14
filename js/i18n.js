@@ -24,7 +24,7 @@
       'intro-body2': 'The shelter transforms a fragment of the festival into a living room for the commons: a soft landscape where architecture is not an object to admire, but an experience lived through the body and the senses. Inside the pavilion, artworks and collaborations with artists create moments of encounter and reflection.',
 
       'concept-label': 'The design',
-      'concept-title': 'Central gathering<br>with <em class="accent">hexagonal floors.</em>',
+      'concept-title': 'Central gathering<br>with <em class="accent">circular materials.</em>',
       'concept-body': 'A scaffold pavilion wrapped in a warm, tessellated bioplastic scale skin. Modular hexagonal flooring creates flexible seating and gathering zones beneath layered scales that filter the light.',
       'concept-facade-body': 'The entire façade is made of biodegradable bioplastic panels, designed as part of the Green Cycle — safely returning to the natural cycle of matter at the end of the festival. Their colours come from natural pigments: turmeric for the warm yellows, and natural indigo leaves for the blues.',
 
@@ -230,8 +230,8 @@
       'refugio-label': 'A final note',
       'refugio-badge': 'Alternative concept',
       'refugio-title': 'Refugio <em class="accent">Sensorial.</em>',
-      'refugio-body1': 'As a final note, we’d like to share a completely different concept: Refugio Sensorial. It follows a distinct direction from everything we’ve presented so far — a low-stimulation lounge of woven fibre and soft texture, built purely for acoustic and sensory rest.',
-      'refugio-body2': 'We include it here as an alternative, in case this direction resonates more. It could equally live inside Encounters itself, as a dedicated sensory-refuge feature within the pavilion.',
+      'refugio-body1': 'As a final note, we’d like to share a completely different concept: Refugio Sensorial — a low-stimulation lounge of woven fibre and soft texture, built for acoustic and sensory rest.',
+      'refugio-body2': 'It can be added to the current design of Encounters as a feature. We’re developing it in collaboration with a neuroarchitect, and it’s intended to support neurodivergent communities with a dedicated space for lower sensory stimulation.',
 
       'footer-tagline': 'A space where ecology matters.<br>Primavera Sound · Barcelona · 3–7 June 2027',
       'footer-heading-project': 'Project',
@@ -262,7 +262,7 @@
       'intro-body2': 'El refugio transforma un fragmento del festival en una sala de estar para lo común: un paisaje suave donde la arquitectura no es un objeto para admirar, sino una experiencia vivida a través del cuerpo y los sentidos. En el interior del pabellón, obras de arte y colaboraciones con artistas crean momentos de encuentro y reflexión.',
 
       'concept-label': 'El diseño',
-      'concept-title': 'Encuentro central<br>con <em class="accent">suelos hexagonales.</em>',
+      'concept-title': 'Encuentro central<br>con <em class="accent">materiales circulares.</em>',
       'concept-body': 'Un pabellón de andamiaje envuelto en una cálida piel de escamas de bioplástico teseladas. Un suelo hexagonal modular crea zonas flexibles de asiento y encuentro bajo capas de escamas que filtran la luz.',
       'concept-facade-body': 'Toda la fachada está hecha de paneles de bioplástico biodegradable, diseñados como parte del Ciclo Verde — y regresan de forma segura al ciclo natural de la materia al final del festival. Sus colores provienen de pigmentos naturales: cúrcuma para los tonos amarillos cálidos, y hojas de índigo natural para los azules.',
 
@@ -468,8 +468,8 @@
       'refugio-label': 'Una última nota',
       'refugio-badge': 'Concepto alternativo',
       'refugio-title': 'Refugio <em class="accent">Sensorial.</em>',
-      'refugio-body1': 'Como nota final, nos gustaría compartir un concepto completamente distinto: Refugio Sensorial. Sigue una dirección diferente a todo lo presentado hasta ahora — un espacio de baja estimulación en fibra tejida y textura suave, pensado exclusivamente para el descanso acústico y sensorial.',
-      'refugio-body2': 'Más que un reemplazo, puede incorporarse al diseño actual de Encounters como una función — una zona dedicada de refugio sensorial dentro del pabellón, por si esta dirección resuena más.',
+      'refugio-body1': 'Como nota final, nos gustaría compartir un concepto completamente distinto: Refugio Sensorial — un espacio de baja estimulación en fibra tejida y textura suave, pensado para el descanso acústico y sensorial.',
+      'refugio-body2': 'Puede incorporarse al diseño actual de Encounters como una función. Lo estamos desarrollando en colaboración con una neuroarquitecta, y está pensado para apoyar a las comunidades neurodivergentes con un espacio dedicado de menor estimulación sensorial.',
 
       'footer-tagline': 'Un espacio donde la ecología importa.<br>Primavera Sound · Barcelona · 3–7 de junio de 2027',
       'footer-heading-project': 'Proyecto',

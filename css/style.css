@@ -632,6 +632,22 @@ em.accent { font-style: italic; color: inherit; }
   width: 100%; height: 100%; object-fit: cover;
 }
 
+/* ── REFUGIO SENSORIAL — text beside a true-square image ── */
+.refugio-grid {
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 60px;
+}
+.refugio-text { flex: 1 1 420px; }
+.refugio-text p { font-size: 18px; font-weight: 300; line-height: 1.6; color: var(--ink); margin-top: 20px; max-width: 56ch; }
+.refugio-img {
+  flex: 0 0 440px;
+  width: 440px; max-width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.refugio-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
 /* ── TABS (dark section) ────────────── */
 .tab-nav {
   display: flex; flex-wrap: wrap;
