@@ -38,6 +38,11 @@
       'compare-orange': 'Orange',
       'compare-blue': 'Blue',
 
+      'diagram-label': 'Panel logic',
+      'diagram-badge': 'How the colours work',
+      'diagram-title': 'Blue for shade,<br>orange for <em class="accent">warmth.</em>',
+      'diagram-body': 'Translucent blue scales are placed where solar exposure is highest, offering enhanced shade and UV protection. Translucent orange scales bring a warmer aesthetic with partial light transmission, keeping interiors comfortable without losing daylight.',
+
       'flooring-label': 'The ground',
       'flooring-badge': 'Foundation',
       'flooring-title': 'Hexagonal tiles from<br><em class="accent">shells.</em>',
@@ -271,6 +276,11 @@
       'compare-orange': 'Naranja',
       'compare-blue': 'Azul',
 
+      'diagram-label': 'Lógica de paneles',
+      'diagram-badge': 'Cómo funcionan los colores',
+      'diagram-title': 'Azul para sombra,<br>naranja para <em class="accent">calidez.</em>',
+      'diagram-body': 'Las escamas azules translúcidas se colocan donde la exposición solar es mayor, ofreciendo mayor sombra y protección UV. Las escamas naranjas translúcidas aportan una estética más cálida con transmisión parcial de luz, manteniendo el interior confortable sin perder luz natural.',
+
       'flooring-label': 'El suelo',
       'flooring-badge': 'Cimiento',
       'flooring-title': 'Baldosas hexagonales<br>de <em class="accent">conchas.</em>',
@@ -459,7 +469,7 @@
       'refugio-badge': 'Concepto alternativo',
       'refugio-title': 'Refugio <em class="accent">Sensorial.</em>',
       'refugio-body1': 'Como nota final, nos gustaría compartir un concepto completamente distinto: Refugio Sensorial. Sigue una dirección diferente a todo lo presentado hasta ahora — un espacio de baja estimulación en fibra tejida y textura suave, pensado exclusivamente para el descanso acústico y sensorial.',
-      'refugio-body2': 'Lo incluimos aquí como alternativa, por si esta dirección resuena más. También podría integrarse dentro de Encounters como una función dedicada de refugio sensorial dentro del pabellón.',
+      'refugio-body2': 'Más que un reemplazo, puede incorporarse al diseño actual de Encounters como una función — una zona dedicada de refugio sensorial dentro del pabellón, por si esta dirección resuena más.',
 
       'footer-tagline': 'Un espacio donde la ecología importa.<br>Primavera Sound · Barcelona · 3–7 de junio de 2027',
       'footer-heading-project': 'Proyecto',
