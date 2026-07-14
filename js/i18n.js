@@ -230,8 +230,8 @@
       'refugio-label': 'A final note',
       'refugio-badge': 'Alternative concept',
       'refugio-title': 'Refugio <em class="accent">Sensorial.</em>',
-      'refugio-body1': 'As a final note, we want to share Refugio Sensorial — a concept that can be added to Encounters as a space: a low-stimulation lounge of woven fibre and soft texture, built for acoustic and sensory rest.',
-      'refugio-body2': 'We’re developing it in collaboration with a neuroarchitect, and it’s intended to support neurodivergent communities with a dedicated space for lower sensory stimulation.',
+      'refugio-body1': 'Within the intensity of a concert, silence also exists. For those who experience the world through a neurodivergent sensitivity, pausing is part of the experience. This refuge is conceived as a moment of calm—a place where body and mind can regain balance before returning to the collective encounter.',
+      'refugio-body2': 'Built from cardboard tubes reclaimed from the fashion industry, filled with fabric offcuts, and grounded by a living mycelium floor, the space transforms discarded materials into care. Matter ceases to be waste and becomes shelter, revealing how architecture can embrace diversity and make calm an act of inclusion.',
 
       'footer-tagline': 'A space where ecology matters.<br>Primavera Sound · Barcelona · 3–7 June 2027',
       'footer-heading-project': 'Project',
@@ -468,8 +468,8 @@
       'refugio-label': 'Una última nota',
       'refugio-badge': 'Concepto alternativo',
       'refugio-title': 'Refugio <em class="accent">Sensorial.</em>',
-      'refugio-body1': 'Como nota final, queremos compartir Refugio Sensorial — un concepto que puede añadirse a Encounters como un espacio: un lugar de baja estimulación en fibra tejida y textura suave, pensado para el descanso acústico y sensorial.',
-      'refugio-body2': 'Lo estamos desarrollando en colaboración con una neuroarquitecta, y está pensado para apoyar a las comunidades neurodivergentes con un espacio dedicado de menor estimulación sensorial.',
+      'refugio-body1': 'Dentro de la intensidad de un concierto, también existe el silencio. Para quienes experimentan el mundo a través de una sensibilidad neurodivergente, hacer una pausa forma parte de la experiencia. Este refugio está concebido como un momento de calma: un lugar donde el cuerpo y la mente pueden recuperar el equilibrio antes de volver al encuentro colectivo.',
+      'refugio-body2': 'Construido con tubos de cartón recuperados de la industria de la moda, rellenos de retales de tela y asentado sobre un suelo vivo de micelio, el espacio transforma materiales descartados en cuidado. La materia deja de ser residuo y se convierte en refugio, revelando cómo la arquitectura puede abrazar la diversidad y convertir la calma en un acto de inclusión.',
 
       'footer-tagline': 'Un espacio donde la ecología importa.<br>Primavera Sound · Barcelona · 3–7 de junio de 2027',
       'footer-heading-project': 'Proyecto',
